@@ -1,0 +1,22 @@
+api call 
+---------
+  1.axios    
+    - npm i axios
+
+async await 
+-----------
+
+without async await
+
+asyncFunction = () =>{
+    asyncCode().then(data => {
+        console.log(data)
+    })
+}
+
+with async await
+
+asyncFunction = async() => {
+    const data = await asyncCode()
+    console.log(data);
+}
